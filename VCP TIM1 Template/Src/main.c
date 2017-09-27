@@ -1,19 +1,9 @@
 /*
  FILE          : main.c
- PROJECT       : PROG8125
- PROGRAMMER    : R. Hofer
- FIRST VERSION : 2016-02-0
- REVISED:		 : 2017-01-23 - Changed to run on the Nucleo-32 and in TrueSTUDIO
- DESCRIPTION   : Demonstrates a debit machine banking
- transaction that implements a state
- machine.
- State machine diagram is found on slide 14 of
- Week 9 Switch Statement and State Machine.pptx
- in k:\Rhofer\PROG8125
-
- Switches are assigned as follows
- PA0			PA1			PA4			PA3
- chequing		savings		ok			cancel
+ PROJECT       : Whistle Switch
+ PROGRAMMER    : Divesh Dutt
+ FIRST VERSION : 2016-07-09
+ 
 
  Note: Don't use PA2 as it is connected to VCP TX and you'll
  lose printf output ability.
